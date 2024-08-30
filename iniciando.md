@@ -4,3 +4,15 @@
 - Resolve o problema do "na minha máquina funciona" - diferentes máquinas tem configurações diferentes.
 
 - O Docker utiliza uma tecnologia chamada virtualização de contêineres. Ao contrário das máquinas virtuais (VMs), que precisam de um sistema operacional completo para cada aplicação, os contêineres compartilham o mesmo kernel do sistema operacional do host, o que os torna muito mais leves e rápidos.
+
+## Download
+-  Consulte a [documentação oficial] (https://docs.docker.com/get-started/get-docker/) para a instalação da ferramenta no seu ambiente 
+
+### Versão do docker:
+```
+docker --version
+```
+### Listando contêineres:
+```
+docker ps
+```
