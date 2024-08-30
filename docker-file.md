@@ -7,7 +7,7 @@ Dockerfile é um arquivo de texto que contém uma série de instruções sobre c
 - Consistência: Garante que o ambiente de execução seja sempre o mesmo, independentemente de onde a imagem é executada.
 - Portabilidade: A imagem criada a partir de um Dockerfile pode ser distribuída e executada em qualquer máquina que suporte Docker.
 
-## exemplo de Dockerfile
+## Exemplo de Dockerfile
 ```
 
 # Usando a imagem base do Ubuntu
