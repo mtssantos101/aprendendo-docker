@@ -32,20 +32,19 @@ EXPOSE 8000
 CMD ["python3", "app.py"]
 ```
 
-# Construa a Imagem: Use o comando docker build para construir a imagem a partir do Dockerfile:
+### Construa a Imagem: Use o comando docker build para construir a imagem a partir do Dockerfile:
 ```
 docker build -t minha-imagem .
-
 ```
 O -t permite que você nomeie a imagem, e o . indica que o Dockerfile está no diretório atual.
 
-# Execute um Contêiner: Use o comando docker run para criar e executar um contêiner a partir da imagem criada:
+### Execute um Contêiner: Use o comando docker run para criar e executar um contêiner a partir da imagem criada:
 ```
 docker run -p 8000:8000 minha-imagem
 ```
 O -p 8000:8000 mapeia a porta 8000 do contêiner para a porta 8000 do host.
 
-# comando que para os conteineres:
+### comando que para os conteineres:
 
 ```
 docker compose down
