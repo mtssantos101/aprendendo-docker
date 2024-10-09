@@ -16,3 +16,6 @@ docker --version
 ```
 docker ps
 ```
+
+
+docker compose up -d
